@@ -22,7 +22,7 @@ def create_card(q_text, opts, ans):
     draw = ImageDraw.Draw(img)
     
     # تحميل الخط (تأكد من وجود الملف بنفس الاسم في المستودع)
-    font_path = "Tajawal-Bold.ttf" 
+    font_path = "Tajawal-Bold.ttf.ttf" 
     try:
         f_q = ImageFont.truetype(font_path, 35)
         f_opt = ImageFont.truetype(font_path, 30)
